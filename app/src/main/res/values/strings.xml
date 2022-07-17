@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Vulegechi</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_description">Event Description</string>
+    <string name="date">Date</string>
+    <string name="add_calender">Add Calender</string>
+    <string name="time">Time</string>
+    <string name="add_time">Add Time</string>
+    <string name="sms_reminder">SMS</string>
+    <string name="otpcheck">Check Your Mobiel For Otp</string>
+    <string name="ocassionpersonname">Ocassion Person Name</string>
+    <string name="personnumber">Person Mobile No.</string>
+    <string name="persontype">Person Type: Friend,Wife</string>
+    <string name="subcriptiondialogdescription">A dialog will come to your phone number . Press 1 to get/send all reminder or wishes in mobile message</string>
+    <string name="subscriptionhead">Subscribe To Get/Send Message</string>
+    <string name="sign_up_to_remind_your_work">Sign Up With Your Airtel/Robi Number To Get Remind Your Work In Mobile Message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstscreencontent">রিমাইন্ডার সেট করুন অ্যাপে, মেসেজ পেয়ে যান সঠিক সময়ে আপনার মোবাইলে।</string>
+    <string name="secondscreencontent">আপনার রবি/এয়ারটেল রেজিস্টার্ড নাম্বারে একটি নোটিফিকেশন আসলে 1 লিখে সেন্ড করুন।</string>
+    <string name="wish_message">Wish Message</string>
+    <string name="receiver_number">Receiver Mobile</string>
+    <string name="wishhelp">*** After set a wish message,the number will receive the message in 12:01 AM </string>
+    <string name="HelperHintForSend">Must be airtel/robi number</string>
+</resources>

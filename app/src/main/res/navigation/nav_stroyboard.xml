@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_stroyboard"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.xossapp.vulegechi.storyboard.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_activityHome2"
+            app:destination="@id/activityHome" />
+        <action
+            android:id="@+id/action_splashFragment_to_activitySignUp"
+            app:destination="@id/activitySignUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.xossapp.vulegechi.storyboard.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_activitySignUp"
+            app:destination="@id/activitySignUp" />
+    </fragment>
+    <activity
+        android:id="@+id/activityHome"
+        android:name="com.xossapp.vulegechi.home.ActivityHome"
+        android:label="ActivityHome" />
+    <activity
+        android:id="@+id/activitySignUp"
+        android:name="com.xossapp.vulegechi.signUp.ActivitySignUp"
+        android:label="ActivitySignUp" />
+</navigation>

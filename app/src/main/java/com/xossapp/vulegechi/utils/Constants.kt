@@ -1,0 +1,20 @@
+package com.xossapp.vulegechi.utils
+
+object Constants {
+    const val ACTION_SET_EXACT_ALARM = "ACTION_SET_EXACT_ALARM"
+    const val EXTRA_EXACT_ALARM_TIME = "EXTRA_EXACT_ALARM_TIME"
+
+    const val KEY_MOBILE_NUMBER = "MOBILE_NUMBER"
+    const val KEY_VERIFICATION_ID = "VERIFICATION_ID"
+
+    const val KEY_REMINDER_ID = "REMINDER_ID"
+    const val KEY_OCASSION_TITLE = "OCASSION_TITLE"
+    const val KEY_OCASSION_PERSON_TYPE = "OCASSION_PERSON_TYPE"
+    const val KEY_OCASSION_PERSON_NAME = "OCASSION_PERSON"
+    const val KEY_PERSON_MOBILE = "PERSON_MOBILE"
+    const val KEY_OCASSION_DATE = "OCASSION_DATE"
+    const val KEY_OCASSION_TIME = "OCASSION_TIME"
+
+    const val KEY_REMINDER_CREATE = "CREATE"
+    const val KEY_REMINDER_DELETE = "DELETE"
+}
